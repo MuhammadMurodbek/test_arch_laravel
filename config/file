@@ -1,0 +1,12 @@
+Simple laravel CRUD task
+
+Umumiy mazmuni: Maqolalar loyixasini CRUD qismini yaratish.
+	Bunda loyixada maqolalar(Post) va maqola yaratuvchi(User) mavjud bo'ladi.
+
+1. User(id, username, password) actions:
+	1.1 Create user
+	1.2 Get users
+	1.3 GetAuthors - Bunda faqat maqola yozgan foydalanuvchilar(users) list qaytaradi va bu method 2.2 task dan keyin bajarish ko'zda tutilgan
+2. Post actions:
+	2.1 Create post
+	2.2 Get posts with author
